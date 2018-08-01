@@ -1,0 +1,116 @@
+﻿@using Newtonsoft.Json
+@model IndexViewModel
+
+<div class="row" style="margin-right: 0;">
+    <div class="col-md-3">
+        Клиенты
+        <div class="form-group" data-bind="with: clientToAdd">
+            <label for="ClientName">Имя:</label> <input id="ClientName" data-bind="value: name" />
+            <p><a class="btn btn-success" href="#" data-bind="click: $root.addClient">Добавить</a></p>
+        </div>
+        <div class="table-responsive" style="max-height: 400px;">
+            <table class="table table-hover table-responsive-md">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Имя</th>
+                    </tr>
+                </thead>
+                <tbody data-bind="foreach: _clients">
+                    <tr data-bind="click: $root.changeClient">
+                        <td></td>
+                        <td data-bind="text: name"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="col-md-5">
+        Продукция
+        <div data-bind="with: productToAdd">
+            <div class="form-inline">
+                <p>Название: <input data-bind="value: name" /></p>
+                <p style="margin-left: 10px">Цена: <input type="number" data-bind="value: price" /></p>
+            </div>
+            <p class="btn btn-success" data-bind="click: $root.addProduct">Добавить</p>
+        </div>
+        <div class="table-responsive" style="max-height: 400px;">
+            <table class="table table-hover table-responsive-md">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Название</th>
+                        <th>Цена</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody data-bind="foreach: _products">
+                    <tr>
+                        <td></td>
+                        <td data-bind="text: name"></td>
+                        <td><span data-bind="text: price"></span>&nbsp;руб.</td>
+                        <td data-bind="click: $root.addToBasket"><button class="btn btn-primary">Добавить</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="col-md-4" data-bind="with: basket">
+        Корзина
+        <h5>Клиент: <span data-bind="text: name"></span></h5>
+        <div class="table-responsive" style="max-height: 400px; margin-bottom: 30px;">
+            <table class="table table-hover table-responsive-md" data-bind="visible: products().length > 0">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Название</th>
+                        <th>Цена</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody data-bind="foreach: products">
+                    <tr>
+                        <td></td>
+                        <td data-bind="text: name"></td>
+                        <td><span data-bind="text: price"></span>&nbsp;руб.</td>
+                        <td><a class="btn btn-warning" href="#" data-bind="click:$parent.removeFromBasket.bind($parent)">Удалить</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="row">
+            <div class="col-md-8">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>Сумма: </td>
+                            <td><span data-bind="text: total()"></span>&nbsp;руб.</td>
+                        </tr>
+                        <tr>
+                            <td>Скидка: </td>
+                            <td><span data-bind="text: discount()"></span>&nbsp;%</td>
+                        </tr>
+                        <tr>
+                            <td>Сумма со скидкой: </td>
+                            <td><span data-bind="text: totalWithDiscount()"></span>&nbsp;руб.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-md-4">
+                <span class="btn btn-success" data-bind="click: $root.buy,visible:!purchaseDisable() && products().length > 0">Купить</span>
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts{
+    <script>
+        var startup = {
+            clients: @Html.Raw(JsonConvert.SerializeObject(Model.Clients)),
+            products: @Html.Raw(JsonConvert.SerializeObject(Model.Products))
+        };
+    </script>
+
+}

@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Bsuir.Cli": {
+      "commandName": "Project",
+      "commandLineArgs": "create-db"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+C:\Repositories\Bsuir\Bsuir\Bsuir.Cli\bin\Debug\netcoreapp2.0\Bsuir.Core.dll
+C:\Repositories\Bsuir\Bsuir\Bsuir.Cli\obj\Debug\netcoreapp2.0\Bsuir.Cli.csprojResolveAssemblyReference.cache
+C:\Repositories\Bsuir\Bsuir\Bsuir.Cli\obj\Debug\netcoreapp2.0\Bsuir.Cli.csproj.CoreCompileInputs.cache
+C:\Repositories\Bsuir\Bsuir\Bsuir.Cli\obj\Debug\netcoreapp2.0\Bsuir.Cli.AssemblyInfoInputs.cache
+C:\Repositories\Bsuir\Bsuir\Bsuir.Cli\obj\Debug\netcoreapp2.0\Bsuir.Cli.AssemblyInfo.cs
+C:\Repositories\Bsuir\Bsuir\Bsuir.Cli\bin\Debug\netcoreapp2.0\Bsuir.Cli.deps.json
+C:\Repositories\Bsuir\Bsuir\Bsuir.Cli\bin\Debug\netcoreapp2.0\Bsuir.Cli.runtimeconfig.json
+C:\Repositories\Bsuir\Bsuir\Bsuir.Cli\bin\Debug\netcoreapp2.0\Bsuir.Cli.runtimeconfig.dev.json
+C:\Repositories\Bsuir\Bsuir\Bsuir.Cli\bin\Debug\netcoreapp2.0\Bsuir.Cli.dll
+C:\Repositories\Bsuir\Bsuir\Bsuir.Cli\bin\Debug\netcoreapp2.0\Bsuir.Cli.pdb
+C:\Repositories\Bsuir\Bsuir\Bsuir.Cli\bin\Debug\netcoreapp2.0\Bsuir.Core.pdb
+C:\Repositories\Bsuir\Bsuir\Bsuir.Cli\obj\Debug\netcoreapp2.0\Bsuir.Cli.dll
+C:\Repositories\Bsuir\Bsuir\Bsuir.Cli\obj\Debug\netcoreapp2.0\Bsuir.Cli.pdb

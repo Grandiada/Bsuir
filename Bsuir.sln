@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2024
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bsuir.Web", "Bsuir.Web\Bsuir.Web.csproj", "{60DEAA58-BD56-4476-9B2A-C5964680A471}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bsuir.Cli", "Bsuir.Cli\Bsuir.Cli.csproj", "{2D8B5C5C-E74F-430E-8929-6D449B4A5895}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bsuir.Core", "Bsuir.Core\Bsuir.Core.csproj", "{06709BB4-A2C1-4770-9BE1-84F1F802BF44}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{60DEAA58-BD56-4476-9B2A-C5964680A471}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60DEAA58-BD56-4476-9B2A-C5964680A471}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60DEAA58-BD56-4476-9B2A-C5964680A471}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60DEAA58-BD56-4476-9B2A-C5964680A471}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D8B5C5C-E74F-430E-8929-6D449B4A5895}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D8B5C5C-E74F-430E-8929-6D449B4A5895}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D8B5C5C-E74F-430E-8929-6D449B4A5895}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D8B5C5C-E74F-430E-8929-6D449B4A5895}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06709BB4-A2C1-4770-9BE1-84F1F802BF44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06709BB4-A2C1-4770-9BE1-84F1F802BF44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06709BB4-A2C1-4770-9BE1-84F1F802BF44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06709BB4-A2C1-4770-9BE1-84F1F802BF44}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2A7A01C2-D662-42A2-A76A-A19BD04C771F}
+	EndGlobalSection
+EndGlobal

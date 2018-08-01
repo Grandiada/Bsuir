@@ -1,0 +1,9 @@
+C:\Repositories\Bsuir\Bsuir\Bsuir.Core\bin\Debug\netstandard2.0\Bsuir.Core.deps.json
+C:\Repositories\Bsuir\Bsuir\Bsuir.Core\bin\Debug\netstandard2.0\Bsuir.Core.dll
+C:\Repositories\Bsuir\Bsuir\Bsuir.Core\obj\Debug\netstandard2.0\Bsuir.Core.csprojResolveAssemblyReference.cache
+C:\Repositories\Bsuir\Bsuir\Bsuir.Core\obj\Debug\netstandard2.0\Bsuir.Core.csproj.CoreCompileInputs.cache
+C:\Repositories\Bsuir\Bsuir\Bsuir.Core\obj\Debug\netstandard2.0\Bsuir.Core.AssemblyInfoInputs.cache
+C:\Repositories\Bsuir\Bsuir\Bsuir.Core\obj\Debug\netstandard2.0\Bsuir.Core.AssemblyInfo.cs
+C:\Repositories\Bsuir\Bsuir\Bsuir.Core\bin\Debug\netstandard2.0\Bsuir.Core.pdb
+C:\Repositories\Bsuir\Bsuir\Bsuir.Core\obj\Debug\netstandard2.0\Bsuir.Core.dll
+C:\Repositories\Bsuir\Bsuir\Bsuir.Core\obj\Debug\netstandard2.0\Bsuir.Core.pdb

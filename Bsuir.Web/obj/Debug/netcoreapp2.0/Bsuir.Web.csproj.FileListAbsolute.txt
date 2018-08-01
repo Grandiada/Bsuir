@@ -1,0 +1,13 @@
+C:\Repositories\Bsuir\Bsuir\Bsuir.Web\bin\Debug\netcoreapp2.0\Bsuir.Core.dll
+C:\Repositories\Bsuir\Bsuir\Bsuir.Web\obj\Debug\netcoreapp2.0\Bsuir.Web.csprojResolveAssemblyReference.cache
+C:\Repositories\Bsuir\Bsuir\Bsuir.Web\obj\Debug\netcoreapp2.0\Bsuir.Web.csproj.CoreCompileInputs.cache
+C:\Repositories\Bsuir\Bsuir\Bsuir.Web\obj\Debug\netcoreapp2.0\Bsuir.Web.AssemblyInfoInputs.cache
+C:\Repositories\Bsuir\Bsuir\Bsuir.Web\obj\Debug\netcoreapp2.0\Bsuir.Web.AssemblyInfo.cs
+C:\Repositories\Bsuir\Bsuir\Bsuir.Web\obj\Debug\netcoreapp2.0\Bsuir.Web.dll
+C:\Repositories\Bsuir\Bsuir\Bsuir.Web\obj\Debug\netcoreapp2.0\Bsuir.Web.pdb
+C:\Repositories\Bsuir\Bsuir\Bsuir.Web\bin\Debug\netcoreapp2.0\Bsuir.Web.deps.json
+C:\Repositories\Bsuir\Bsuir\Bsuir.Web\bin\Debug\netcoreapp2.0\Bsuir.Web.runtimeconfig.json
+C:\Repositories\Bsuir\Bsuir\Bsuir.Web\bin\Debug\netcoreapp2.0\Bsuir.Web.runtimeconfig.dev.json
+C:\Repositories\Bsuir\Bsuir\Bsuir.Web\bin\Debug\netcoreapp2.0\Bsuir.Web.dll
+C:\Repositories\Bsuir\Bsuir\Bsuir.Web\bin\Debug\netcoreapp2.0\Bsuir.Web.pdb
+C:\Repositories\Bsuir\Bsuir\Bsuir.Web\bin\Debug\netcoreapp2.0\Bsuir.Core.pdb
